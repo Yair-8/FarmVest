@@ -84,7 +84,7 @@ onUnmounted(() => {
 });
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @use "../assets/styles/common-styles/container.scss" as *;
 .header {
   position: fixed;
@@ -200,6 +200,8 @@ onUnmounted(() => {
   }
 }
 .button {
+  padding: 1rem 2rem;
+
   @media (max-width: 840px) {
     padding: 1rem 1rem;
   }

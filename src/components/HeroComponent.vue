@@ -63,7 +63,7 @@
 
   @media screen and (max-width: $mobile) {
     gap: 0.8rem;
-    padding: 2rem 0;
+    padding: 4rem 0;
     background: none;
     height: 100%;
   }
